@@ -3,7 +3,7 @@ import { weddingData } from '../data/weddingData';
 import styles from './Footer.module.css';
 
 export default function Footer() {
-  const { groomSide } = weddingData.families;
+  const { brideSide } = weddingData.families;
 
   return (
     <footer className={styles.footerSection}>
@@ -11,7 +11,7 @@ export default function Footer() {
 
       <div className={styles.contactsContainer}>
         <div className={styles.contactInfo}>
-          <span className={styles.contactName}>{groomSide.parents[0]} &amp; Family</span>
+          <span className={styles.contactName}>{brideSide.parents[0]} &amp; Family</span>
           <span className={styles.contactSubtext}>With Warm Regards</span>
         </div>
 

@@ -1,0 +1,73 @@
+.footerSection {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  text-align: center;
+  padding: 4.5rem 2rem 2.5rem;
+  position: relative;
+}
+
+.thankYouText {
+  font-family: var(--font-script);
+  color: var(--color-accent);
+  margin-bottom: 2rem;
+  font-size: 3.5rem;
+}
+
+.contactsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contactName {
+  font-family: var(--font-heading);
+  letter-spacing: 0.08em;
+  color: var(--color-secondary);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.contactSubtext {
+  font-family: var(--font-body);
+  color: var(--color-accent);
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.divider {
+  background: linear-gradient(90deg, transparent, rgba(201, 162, 39, 0.4), transparent);
+  width: 100%;
+  max-width: 800px;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.hashtag {
+  font-family: var(--font-body);
+  color: var(--color-accent);
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1.8rem;
+  text-shadow: 0 0 12px rgba(201, 162, 39, 0.35);
+}
+
+@media (max-width: 768px) {
+  .contactsContainer {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .thankYouText {
+    font-size: 2.8rem;
+  }
+}
